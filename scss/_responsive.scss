@@ -1,0 +1,270 @@
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+    .mainPage {
+        display: grid;
+        grid-template-areas: 
+        "navigate"
+        "head"
+        "services"
+        "difference"
+        "portfolio"
+        "contact"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 512px) and (max-width: 1023px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+        padding: 10px;
+    }
+
+    .mainPage {
+        display: grid;
+        grid-template-areas: 
+        "navigate"
+        "head"
+        "services"
+        "difference"
+        "portfolio"
+        "contact"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    header  {
+        height: 300px;
+    }
+
+    .randomText {
+        max-width: 100%;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 511px) {
+
+    .mainPage {
+        display: grid;
+        grid-template-areas: 
+        "navigate"
+        "head"
+        "services"
+        "difference"
+        "portfolio"
+        "contact"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .burger {
+        display: flex;
+        padding: 10px;
+    }
+
+    .normalNav li, .normalNav {
+        display: none;
+        position: absolute;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .randomText {
+        max-width: 100%;
+    }
+}
+
+/* About page */
+
+@media (min-width: 512px) and (max-width: 1023px) {
+
+    .aboutPage {
+        display: grid;
+        grid-template-areas:
+        "navigate"
+        "head"
+        "main-about"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    .aboutSection div {
+        max-width: 100%;
+    }
+
+    .textAbout {
+        padding-bottom: 20px;
+    }
+ }
+
+
+ /* Phone */
+
+ @media (max-width: 511px) {
+
+    .aboutPage {
+        display: grid;
+        grid-template-areas:
+        "navigate"
+        "head"
+        "main-about"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        }
+
+    .aboutSection {
+        padding: 5px;
+        div {
+            max-width: 100%;
+        }
+    }
+
+    .textAbout {
+        padding-bottom: 20px;
+    }
+
+}
+
+/* Services Section */
+
+/* Tablet */
+
+@media (min-width: 512px) and (max-width: 1023px) {
+
+    .main-services {
+        display: grid;
+        grid-template-areas:
+        "navigate"
+        "head"
+        "service-main"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    .servicesSection2 article {
+        display: flex;
+        flex-flow: row wrap;
+        div {
+            max-width: 100%;
+        }
+    
+    }
+
+    .textServices {
+        padding-bottom: 20px;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 511px) {
+
+    .main-services {
+        display: grid;
+        grid-template-areas:
+        "navigate"
+        "head"
+        "service-main"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        }
+    
+    article div img {
+            max-width: 250px;
+        }
+
+    .servicesSection2 article {
+            display: flex;
+            flex-flow: row wrap;
+            padding: 15px;
+            div {
+                max-width: 100%;
+            }
+        }
+
+    .textServices {
+            padding-bottom: 20px;
+        }
+}
+
+/* Portfolio Section */
+
+/* Tablet */
+
+@media (min-width: 512px) and (max-width: 1023px) {
+
+    .main-portfolio {
+        display: grid;
+        grid-template-areas:
+        "navigate"
+        "head"
+        "main-port"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    .portfolioSection2 div {
+        max-width: 100%;
+    }
+
+    .textPortfolio {
+        padding-bottom: 20px;
+    }
+ }
+
+ /* Phone */
+
+@media (max-width: 511px) {
+
+    .main-portfolio {
+        display: grid;
+        grid-template-areas:
+        "navigate"
+        "head"
+        "main-port"
+        "foot";
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        }
+
+    .portfolioSection2 {
+        padding: 5px;
+        div {
+            max-width: 100%;
+        }
+    }
+    
+    .textPortfolio {
+        padding-bottom: 20px;
+    }
+
+}
